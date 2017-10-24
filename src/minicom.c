@@ -1071,7 +1071,7 @@ int main(int argc, char **argv)
   us = NULL;
   addlf = 0;
   addcr = 0;
-  line_timestamp = 0;
+  line_timestamp = 1; /* from 0->1 , default will add datetime to every line*/
   wrapln = 0;
   display_hex = 0;
   option_T_used = 0;
